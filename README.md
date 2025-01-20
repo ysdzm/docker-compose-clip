@@ -2,7 +2,7 @@
 
 [OpenAI/CLIP](https://github.com/OpenAI/CLIP)のREADMEに記載された[サンプルコード](https://github.com/OpenAI/CLIP?tab=readme-ov-file#usage)を、Docker Composeを使用して実行するリポジトリです。
 
-以下の画像とテキストリスト ["a diagram", "a dog", "a cat"] の類似度を計算します。
+以下の画像とテキストリスト `["a diagram", "a dog", "a cat"]` の類似度を計算します。
 
 ### 使用する画像
 
@@ -32,4 +32,4 @@ clip-1  | Label probs: [[0.00311101 0.04015714 0.9567319 ]]
 clip-1 exited with code 0
 ```
 
-`[[0.00311101 0.04015714 0.9567319 ]]`という出力が得られ、３番目の要素（"a cat"）との類似度が0.95で一番高いことがわかります。
+`[[0.00311101 0.04015714 0.9567319 ]]` という出力が得られ、３番目の要素（`"a cat"`）との類似度が0.95で一番高いことがわかります。
