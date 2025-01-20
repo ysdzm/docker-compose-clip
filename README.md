@@ -1,6 +1,6 @@
 # docker-compose-clip
 
-[OpenAI/CLIP](https://github.com/OpenAI/CLIP)のREADMEに記載された[サンプルコード](https://github.com/OpenAI/CLIP?tab=readme-ov-file#usage)を、Docker Composeを使用して実行するリポジトリです。
+[OpenAI/CLIP](https://github.com/OpenAI/CLIP)のREADMEに記載された[サンプルコード](https://github.com/OpenAI/CLIP?tab=readme-ov-file#usage)を、[Docker Compose](https://docs.docker.com/compose/)を使用して実行するリポジトリです。
 
 以下の画像とテキストリスト `["a diagram", "a dog", "a cat"]` の類似度を計算します。
 
